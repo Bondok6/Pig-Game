@@ -11,7 +11,6 @@ const diceEl = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
-const audio = document.querySelector('.audio');
 
 let currentScore, activePlayer, scores, playing;
 
@@ -31,7 +30,6 @@ const init = function() {
 	player1.classList.remove('player--winner');
 	player0.classList.add('player--active');
 	player1.classList.remove('player--active');
-	audio.pause();
 };
 
 init();
@@ -69,7 +67,6 @@ btnHold.addEventListener('click', () => {
 		document.querySelector(`#score--${activePlayer}`).textContent = scores[activePlayer];
 		if (scores[activePlayer] >= 100) {
 			// Finish the game
-			audio.play();
 			playing = false;
 			diceEl.classList.add('hidden');
 			document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
