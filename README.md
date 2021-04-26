@@ -1,4 +1,5 @@
 # Pig (dice game)
+![image preview](preview.PNG)
 
 ### How to play ?
 Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
