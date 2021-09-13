@@ -2,6 +2,12 @@
 
 ![image preview](preview.PNG)
 
+## Live Demo
+
+[Live Demo Link](https://bondok6.github.io/Pig-Game/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/35d3183f-57ba-41f6-9379-83e7a9f8aec7/deploy-status)](https://pig-roll-dice-game.netlify.app/) 
+
 ## How to play ?
 
 Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
@@ -16,11 +22,3 @@ Donald could hold and score 5 points, but chooses to roll again.
 Donald rolls a 2, and could hold witha turn total of 7 points, but chooses to roll again. Donald rolls a 1, and must end his turn without scoring
 The next player, Alexis, rolls the sequence 4-5-3-5-5, after which she chooses to hold, and adds her turn total of 22 points to her score.
 </i>
-
-## Live Demo
-
-[Live Demo Link](https://bondok6.github.io/Pig-Game/)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/35d3183f-57ba-41f6-9379-83e7a9f8aec7/deploy-status)](https://pig-roll-dice-game.netlify.app/) 
-
-
